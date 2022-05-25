@@ -1,0 +1,84 @@
+/*
+ * Fonts Titillium Family
+ * Edited by Hederr
+*/
+
+@font-face {
+    font-family: 'Titillium-Black';
+    src: url(../fonts/Titillium-Black.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-Bold';
+    src: url(../fonts/Titillium-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-BoldItalic';
+    src: url(../fonts/Titillium-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-BoldUpright';
+    src: url(../fonts/Titillium-BoldUpright.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-Light';
+    src: url(../fonts/Titillium-Light.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-LightItalic';
+    src: url(../fonts/Titillium-LightItalic.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-LightUpright';
+    src: url(../fonts/Titillium-LightUpright.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-Regular';
+    src: url(../fonts/Titillium-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-RegularItalic';
+    src: url(../fonts/Titillium-RegularItalic.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-RegularUpright';
+    src: url(../fonts/Titillium-RegularUpright.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-Semibold';
+    src: url(../fonts/Titillium-Semibold.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-SemiboldItalic';
+    src: url(../fonts/Titillium-SemiboldItalic.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-SemiboldUpright';
+    src: url(../fonts/Titillium-SemiboldUpright.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-Thin';
+    src: url(../fonts/Titillium-Thin.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-ThinItalic';
+    src: url(../fonts/Titillium-ThinItalic.otf);
+}
+
+@font-face {
+    font-family: 'Titillium-ThinUpright';
+    src: url(../fonts/Titillium-ThinUpright.otf);
+}

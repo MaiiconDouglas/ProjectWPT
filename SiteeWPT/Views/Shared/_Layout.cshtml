@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Home Index" />
+    <meta name="keywords" content="Index, Home, Priston, Tale, priston tale" />
+    <meta name="author" content="Maicon Douglas" />
+    <meta name="reply-to" content="maiicondouglasd@hotmail.com" />
+
+   
+    <!-- Title -->
+    <title>    Wrath World  - Priston Tale     </title>
+
+  <!-- Favicon -->
+
+
+  <!-- Stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+    <body>
+
+        <header>
+            <div class="container">
+               <div class="logo">
+                   ----
+               </div>
+               <div class="menu">
+                   ----
+               </div>
+            </div>
+        </header>
+
+
+
+
+       
+
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+   @* <footer class="border-top footer text-muted">
+        <div class="container">
+          Wrath World - &copy; 2022 
+        </div>
+    </footer>*@
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+
+</body>
+</html>

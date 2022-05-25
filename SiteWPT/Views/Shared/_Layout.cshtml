@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Home Index" />
+
+    <meta name="keywords" content="Index, Home, Priston, Tale, priston tale" />
+
+    <meta name="author" content="Maicon Douglas" />
+
+    <meta name="reply-to" content="maiicondouglasd@hotmail.com" />
+
+   
+    <!-- Title -->   
+    <title>@ViewData["Title"] - MMO/RPG</title>
+
+   <!-- Favicon -->
+
+
+  <!-- Stylesheet -->  
+   
+  @* <link href="css/fonts.css" rel="stylesheet" type="text/css" /> *@
+
+@*   <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+
+   <link rel="stylesheet" type="text/css" href="~/assets/css/template.css" />
+
+</head>
+<body>
+    
+
+<header>
+<div class="menu">
+<a href="https://wrathworld.com.br"
+<img src=""https://wrathworld.com.br/images/logo.png" alt="Wrath World">
+</a>
+<nav>
+<ul id="mainMenu">
+<li><a href="https://wrathworld.com.br">Início</a></li>
+<li><a href="https://wrathworld.com.br" target="_blank">Conta</a></li>
+<li><a href="https://wrathworld.com.br">Informações</a></li>
+<li><a href="https://wrathworld.com.br">Guias</a></li>
+<li><a href="https://wrathworld.com.br">Eventos</a></li>
+<li><a href="https://wrathworld.com.br">Rankings</a></li>
+<li><a target="_blank" href="https://wrathworld.com.br">Suporte</a></li>
+<li><a target="_blank" href="https://wrathworld.com.br">Fórum</a></li>
+<li id="closeMobileMenu"><i class="fas fa-times"></i></li>
+</ul>
+<button id="toggleMenu"><i class="fas fa-bars"></i></button>
+<div>
+<div class="social-links">
+<a href="https://wrathworld.com.br" target="_blank" class="hvr-grow">
+<i class="fab fa-instagram"></i>
+</a>
+<a href="https://wrathworld.com.br" target="_blank" class="hvr-grow">
+<i class="fab fa-facebook-f"></i>
+</a>
+<a href="https://wrathworld.com.br" target="_blank" class="hvr-grow">
+<i class="fab fa-youtube"></i>
+</a>
+<a href="https://wrathworld.com.br" target="_blank" class="hvr-grow">
+<i class="fab fa-discord"></i>
+</a>
+<a href="https://wrathworld.com.br" target="_blank" class="hvr-grow">
+<i class="fab fa-whatsapp"></i>
+</a>
+</div>
+<a href="https://wrathworld.com.br" class="btn btn-golden hvr-grow btn-download-menu">
+Download do Jogo
+</a>
+</div>
+</nav>
+</div>
+<div class="container banner">
+<div class="tip aos-init aos-animate" data-aos="fade-up" data-aos-delay="50" data-aos-duration="700">
+Experiência Única
+</div>
+<h1 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1200" class="aos-init aos-animate">Um servidor feito para os amantes de Priston Tale!!</h1>
+<p data-aos="fade-down" data-aos-delay="500" data-aos-duration="1500" class="aos-init aos-animate">
+Conecte-se com centenas de jogadores e divirta-se no <span>melhor servidor full PvP do Brasil!</span>
+</p>
+<div class="btn-banner aos-init aos-animate" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="800">
+<a href="https://wrathworld.com.br" target="_blank" class="btn btn-golden-outline hvr-float">
+Criar uma nova conta
+</a>
+<a href="https://wrathworld.com.br" class="btn btn-golden hvr-float">
+Download do Jogo
+</a>
+</div>
+</div>
+</header>
+
+
+
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+          @*  &copy; 2022 - Wrath World - Priston Tale -*@ @*<a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>*@
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
